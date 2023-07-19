@@ -1,0 +1,242 @@
+body {
+	background-image: url(Background.jpg);
+}
+select {
+	max-width: 180px;
+	padding: 7px;
+	border: 1px solid green;
+	border-radius: 12px;
+	background-image: linear-gradient( 140deg, #EADED8 0%, #eaf3f5 50%, #f4faf8 75%);
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	position: relative;
+}
+select:first-child {
+	right: 150px;
+}
+select:nth-child(2) {
+	right: 65px;
+}
+option {
+	color: black;
+}
+.opt {
+	background: black;
+	height: 60px;
+	border: 2px solid gray;
+	border-radius: 0 0 12px 12px;
+	padding-bottom: 10px;
+	text-align: right;
+}
+.logo {
+    background-image: url(logo.png);
+    text-align: left;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    width: 240px;
+    height: 60px;
+    position: absolute;
+    left: 10px;
+    top: 12px;
+}
+option:hover {
+	color: red;
+}
+
+#chartdiv1 {
+	width: 50% !important;
+    height: 300px;
+    position: absolute;
+    left: -200px;
+    top: 100px;
+    display: inline-block !important;
+	
+}
+.chblock-sells {
+	position: absolute;
+	top: 9%;
+	display: block;
+	left: 8%;
+	height: 10%;
+	width: 13%;
+}
+.chtl-sells {
+	font-size: 100% !important;
+	text-align: center;
+	padding-top: 2%;
+	color: #fff;
+	background-image: linear-gradient(to right, #145A4C, #30766B);
+	height: 25%;
+	top: 20%;
+	left: 20%;
+	border-radius: 12px 12px 0 0;
+}
+#ch-sells {
+	background-color: #fff;
+	color: #fff !important;
+	opacity: .7;
+	height: 60%;
+	border-radius: 0 0 12px 12px;
+}
+.chblock-kolvo {
+	position: absolute;
+	top: 9%;
+	display: block;
+	left: 26%;
+	height: 10%;
+	width: 13%;
+}
+.chtl-kolvo {
+	font-size: 100% !important;
+	text-align: center;
+	padding-top: 2%;
+	color: #fff;
+	background-image: linear-gradient(to right, #119DA4, #11A070);
+	height: 25%;
+	top: 20%;
+	left: 20%;
+	border-radius: 12px 12px 0 0;
+}
+#ch-kolvo {
+	background-color: #fff;
+	color: #fff !important;
+	opacity: .7;
+	height: 60%;
+	border-radius: 0 0 12px 12px;
+}
+.chblock-lefts {
+	position: absolute;
+	top: 9%;
+	display: block;
+	left: 44%;
+	height: 10%;
+	width: 13%;
+}
+.chtl-lefts {
+	font-size: 100% !important;
+	text-align: center;
+	padding-top: 2%;
+	color: #fff;
+	background-image: linear-gradient(to right, #0F5CBF, #1080C0);
+	height: 25%;
+	top: 20%;
+	left: 20%;
+	border-radius: 12px 12px 0 0;
+}
+#ch-lefts {
+	background-color: #fff;
+	color: #fff !important;
+	opacity: .7;
+	height: 60%;
+	border-radius: 0 0 12px 12px;
+}
+.chblock-in {
+	position: absolute;
+	top: 9%;
+	display: block;
+	left: 62%;
+	height: 10%;
+	width: 13%;
+}
+.chtl-in {
+	font-size: 100% !important;
+	text-align: center;
+	padding-top: 2%;
+	color: #fff;
+	background-image: linear-gradient(to right, #6A2FA7, #8C655E);
+	height: 25%;
+	top: 20%;
+	left: 20%;
+	border-radius: 12px 12px 0 0;
+}
+#ch-in {
+	background-color: #fff;
+	color: #fff !important;
+	opacity: .7;
+	height: 60%;
+	border-radius: 0 0 12px 12px;
+}
+.chblock-out {
+	position: absolute;
+	top: 9%;
+	display: block;
+	left: 80%;
+	height: 10%;
+	width: 13%;
+}
+.chtl-out {
+	font-size: 100% !important;
+	text-align: center;
+	padding-top: 2%;
+	color: #fff;
+	background-image: linear-gradient(to right, #996244, #8A774F);
+	height: 25%;
+	top: 20%;
+	left: 20%;
+	border-radius: 12px 12px 0 0;
+}
+#ch-out {
+	background-color: #fff;
+	color: #fff !important;
+	opacity: .7;
+	height: 60%;
+	border-radius: 0 0 12px 12px;
+}
+
+.fsel {
+  height: 120px;
+  appearance: none;
+  padding: 0.5em;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.fsel::after {
+  content: '▼';
+  position: absolute;
+  top: 10px;
+  right: 0.5em;
+  pointer-events: none;
+  font-size: 0.8em;
+  line-height: 1;
+  color: #888;
+}
+#chartdiv0 {
+    border-radius: 12px !important;
+}
+#chartdiv4 {
+    border-radius: 12px !important;
+}
+.custom-table {
+    width: 45% !important;
+    margin-left: 15px;
+    border-radius: 12px !important;
+    background: #EEEEEE !important;
+    padding: 10px;
+}
+table, td, tr {
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    border-radius: 12px !important;
+    
+}
+th, td {
+    text-align: left;
+    padding: 3px;
+    padding-left: 8px;
+    
+}
+.total-row{
+  font-weight: bold;
+}
+.my-container {
+	background-color: white;
+	width: 205% !important;
+    margin-left: 15px;
+	top: 47%;
+    border-radius: 12px !important;
+    background: #EEEEEE !important;
+    padding: 10px;
+  }
